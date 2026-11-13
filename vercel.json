@@ -1,0 +1,561 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/roof-installation.html",
+      "destination": "/roof-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/roof-installation",
+      "destination": "/roof-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/hail-damage-roof-repair.html",
+      "destination": "/storm-damage-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/hail-damage-roof-repair",
+      "destination": "/storm-damage-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/wind-damage-roof-repair.html",
+      "destination": "/storm-damage-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/wind-damage-roof-repair",
+      "destination": "/storm-damage-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/flat-roof-installation.html",
+      "destination": "/flat-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/flat-roof-installation",
+      "destination": "/flat-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/skylight-repair.html",
+      "destination": "/skylight-installation",
+      "permanent": true
+    },
+    {
+      "source": "/skylight-repair",
+      "destination": "/skylight-installation",
+      "permanent": true
+    },
+    {
+      "source": "/gutter-repair.html",
+      "destination": "/gutter-installation",
+      "permanent": true
+    },
+    {
+      "source": "/gutter-repair",
+      "destination": "/gutter-installation",
+      "permanent": true
+    },
+    {
+      "source": "/downspout-installation.html",
+      "destination": "/gutter-installation",
+      "permanent": true
+    },
+    {
+      "source": "/downspout-installation",
+      "destination": "/gutter-installation",
+      "permanent": true
+    },
+    {
+      "source": "/soffit-and-fascia-repair.html",
+      "destination": "/gutter-installation",
+      "permanent": true
+    },
+    {
+      "source": "/soffit-and-fascia-repair",
+      "destination": "/gutter-installation",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-roofing.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-roofing",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/slate-roofing.html",
+      "destination": "/roof-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/slate-roofing",
+      "destination": "/roof-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/tile-roofing.html",
+      "destination": "/roof-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/tile-roofing",
+      "destination": "/roof-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/roof-coating.html",
+      "destination": "/roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/roof-coating",
+      "destination": "/roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/roof-snow-removal.html",
+      "destination": "/emergency-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/roof-snow-removal",
+      "destination": "/emergency-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/gutter-cleaning.html",
+      "destination": "/gutter-installation",
+      "permanent": true
+    },
+    {
+      "source": "/gutter-cleaning",
+      "destination": "/gutter-installation",
+      "permanent": true
+    },
+    {
+      "source": "/residential-roofing.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/residential-roofing",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/roof-maintenance.html",
+      "destination": "/roof-inspection",
+      "permanent": true
+    },
+    {
+      "source": "/roof-maintenance",
+      "destination": "/roof-inspection",
+      "permanent": true
+    },
+    {
+      "source": "/chimney-flashing-repair.html",
+      "destination": "/roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/chimney-flashing-repair",
+      "destination": "/roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/leak-detection-and-repair.html",
+      "destination": "/roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/leak-detection-and-repair",
+      "destination": "/roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/shingle-roofing.html",
+      "destination": "/roof-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/shingle-roofing",
+      "destination": "/roof-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-algonquin-road.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-algonquin-road",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-beacon-pointe.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-beacon-pointe",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-central-road.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-central-road",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-des-plaines-manor.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-des-plaines-manor",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-forest-view.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-forest-view",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-golf-road-corridor.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-golf-road-corridor",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-lee-street.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-lee-street",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-lexington-commons.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-lexington-commons",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-miner-street.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-miner-street",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-mount-prospect-road.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-mount-prospect-road",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-river-road.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-river-road",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-stratford-green.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-stratford-green",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-sunset-village.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-sunset-village",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-touhy-avenue.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-touhy-avenue",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-waters-edge.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-waters-edge",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-clean-moss-off-your-roof-safely.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-clean-moss-off-your-roof-safely",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/blog/emergency-roof-repair-in-des-plaines-what-to-do-first.html",
+      "destination": "/blog/emergency-roof-repair-in-des-plaines-what-to-do-first",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-much-does-a-roof-inspection-cost-in-des-plaines.html",
+      "destination": "/blog/how-much-does-a-roof-inspection-cost-in-des-plaines",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-choose-the-right-roofing-material-for-your-des-plaines-home.html",
+      "destination": "/blog/how-to-choose-the-right-roofing-material-for-your-des-plaines-home",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-find-a-roof-leak-in-your-attic.html",
+      "destination": "/blog/how-to-find-a-roof-leak-in-your-attic",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-prepare-your-roof-for-winter-in-des-plaines.html",
+      "destination": "/blog/how-to-prepare-your-roof-for-winter-in-des-plaines",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-repair-a-flat-roof-leak.html",
+      "destination": "/blog/how-to-repair-a-flat-roof-leak",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-spot-hail-damage-on-your-roof-after-a-storm.html",
+      "destination": "/blog/how-to-spot-hail-damage-on-your-roof-after-a-storm",
+      "permanent": true
+    },
+    {
+      "source": "/blog/index.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/metal-roofing-vs-shingle-roofing-which-is-better-for-des-plaines.html",
+      "destination": "/blog/metal-roofing-vs-shingle-roofing-which-is-better-for-des-plaines",
+      "permanent": true
+    },
+    {
+      "source": "/blog/roof-replacement-cost-in-des-plaines-what-to-expect.html",
+      "destination": "/blog/roof-replacement-cost-in-des-plaines-what-to-expect",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-des-plaines-homeowners-should-know-before-hiring-a-roofer.html",
+      "destination": "/blog/what-des-plaines-homeowners-should-know-before-hiring-a-roofer",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-are-my-shingles-curling-and-cracking.html",
+      "destination": "/blog/why-are-my-shingles-curling-and-cracking",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-gutter-overflowing-and-causing-roof-damage.html",
+      "destination": "/blog/why-is-my-gutter-overflowing-and-causing-roof-damage",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-roof-leaking-around-the-chimney.html",
+      "destination": "/blog/why-is-my-roof-leaking-around-the-chimney",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-water-leaking-from-my-ceiling-in-des-plaines.html",
+      "destination": "/blog/why-is-water-leaking-from-my-ceiling-in-des-plaines",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/emergency-roof-repair.html",
+      "destination": "/emergency-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/flat-roof-repair.html",
+      "destination": "/flat-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/gutter-installation.html",
+      "destination": "/gutter-installation",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/insurance-claim-help.html",
+      "destination": "/insurance-claim-help",
+      "permanent": true
+    },
+    {
+      "source": "/locations.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/metal-roofing.html",
+      "destination": "/metal-roofing",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/roof-inspection.html",
+      "destination": "/roof-inspection",
+      "permanent": true
+    },
+    {
+      "source": "/roof-repair.html",
+      "destination": "/roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/roof-replacement.html",
+      "destination": "/roof-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/roof-ventilation-installation.html",
+      "destination": "/roof-ventilation-installation",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-big-bend.html",
+      "destination": "/roofing-big-bend",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-cumberland.html",
+      "destination": "/roofing-cumberland",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-downtown-des-plaines.html",
+      "destination": "/roofing-downtown-des-plaines",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-lake-opeka.html",
+      "destination": "/roofing-lake-opeka",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-oakton.html",
+      "destination": "/roofing-oakton",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-orchard-place.html",
+      "destination": "/roofing-orchard-place",
+      "permanent": true
+    },
+    {
+      "source": "/roofing-riverview.html",
+      "destination": "/roofing-riverview",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/skylight-installation.html",
+      "destination": "/skylight-installation",
+      "permanent": true
+    },
+    {
+      "source": "/storm-damage-roof-repair.html",
+      "destination": "/storm-damage-roof-repair",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service.html",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/wood-shake-roofing.html",
+      "destination": "/wood-shake-roofing",
+      "permanent": true
+    }
+  ]
+}

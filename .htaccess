@@ -1,0 +1,111 @@
+# Clean URLs for Apache / LiteSpeed hosts (SiteGround, cPanel, Hostinger,
+# GoDaddy, Namecheap…). Netlify, Vercel and Cloudflare Pages ignore this file
+# and use netlify.toml / vercel.json instead. Safe to leave in place anywhere.
+
+Options -MultiViews
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Pruned URLs (Phase 1): 301 to kept pages.
+  RewriteRule ^roof-installation/?$ /roof-replacement [R=301,L]
+  RewriteRule ^roof-installation\.html$ /roof-replacement [R=301,L]
+  RewriteRule ^hail-damage-roof-repair/?$ /storm-damage-roof-repair [R=301,L]
+  RewriteRule ^hail-damage-roof-repair\.html$ /storm-damage-roof-repair [R=301,L]
+  RewriteRule ^wind-damage-roof-repair/?$ /storm-damage-roof-repair [R=301,L]
+  RewriteRule ^wind-damage-roof-repair\.html$ /storm-damage-roof-repair [R=301,L]
+  RewriteRule ^flat-roof-installation/?$ /flat-roof-repair [R=301,L]
+  RewriteRule ^flat-roof-installation\.html$ /flat-roof-repair [R=301,L]
+  RewriteRule ^skylight-repair/?$ /skylight-installation [R=301,L]
+  RewriteRule ^skylight-repair\.html$ /skylight-installation [R=301,L]
+  RewriteRule ^gutter-repair/?$ /gutter-installation [R=301,L]
+  RewriteRule ^gutter-repair\.html$ /gutter-installation [R=301,L]
+  RewriteRule ^downspout-installation/?$ /gutter-installation [R=301,L]
+  RewriteRule ^downspout-installation\.html$ /gutter-installation [R=301,L]
+  RewriteRule ^soffit-and-fascia-repair/?$ /gutter-installation [R=301,L]
+  RewriteRule ^soffit-and-fascia-repair\.html$ /gutter-installation [R=301,L]
+  RewriteRule ^commercial-roofing/?$ /services [R=301,L]
+  RewriteRule ^commercial-roofing\.html$ /services [R=301,L]
+  RewriteRule ^slate-roofing/?$ /roof-replacement [R=301,L]
+  RewriteRule ^slate-roofing\.html$ /roof-replacement [R=301,L]
+  RewriteRule ^tile-roofing/?$ /roof-replacement [R=301,L]
+  RewriteRule ^tile-roofing\.html$ /roof-replacement [R=301,L]
+  RewriteRule ^roof-coating/?$ /roof-repair [R=301,L]
+  RewriteRule ^roof-coating\.html$ /roof-repair [R=301,L]
+  RewriteRule ^roof-snow-removal/?$ /emergency-roof-repair [R=301,L]
+  RewriteRule ^roof-snow-removal\.html$ /emergency-roof-repair [R=301,L]
+  RewriteRule ^gutter-cleaning/?$ /gutter-installation [R=301,L]
+  RewriteRule ^gutter-cleaning\.html$ /gutter-installation [R=301,L]
+  RewriteRule ^residential-roofing/?$ / [R=301,L]
+  RewriteRule ^residential-roofing\.html$ / [R=301,L]
+  RewriteRule ^roof-maintenance/?$ /roof-inspection [R=301,L]
+  RewriteRule ^roof-maintenance\.html$ /roof-inspection [R=301,L]
+  RewriteRule ^chimney-flashing-repair/?$ /roof-repair [R=301,L]
+  RewriteRule ^chimney-flashing-repair\.html$ /roof-repair [R=301,L]
+  RewriteRule ^leak-detection-and-repair/?$ /roof-repair [R=301,L]
+  RewriteRule ^leak-detection-and-repair\.html$ /roof-repair [R=301,L]
+  RewriteRule ^shingle-roofing/?$ /roof-replacement [R=301,L]
+  RewriteRule ^shingle-roofing\.html$ /roof-replacement [R=301,L]
+  RewriteRule ^roofing-algonquin-road/?$ /locations [R=301,L]
+  RewriteRule ^roofing-algonquin-road\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-beacon-pointe/?$ /locations [R=301,L]
+  RewriteRule ^roofing-beacon-pointe\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-central-road/?$ /locations [R=301,L]
+  RewriteRule ^roofing-central-road\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-des-plaines-manor/?$ /locations [R=301,L]
+  RewriteRule ^roofing-des-plaines-manor\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-forest-view/?$ /locations [R=301,L]
+  RewriteRule ^roofing-forest-view\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-golf-road-corridor/?$ /locations [R=301,L]
+  RewriteRule ^roofing-golf-road-corridor\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-lee-street/?$ /locations [R=301,L]
+  RewriteRule ^roofing-lee-street\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-lexington-commons/?$ /locations [R=301,L]
+  RewriteRule ^roofing-lexington-commons\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-miner-street/?$ /locations [R=301,L]
+  RewriteRule ^roofing-miner-street\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-mount-prospect-road/?$ /locations [R=301,L]
+  RewriteRule ^roofing-mount-prospect-road\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-river-road/?$ /locations [R=301,L]
+  RewriteRule ^roofing-river-road\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-stratford-green/?$ /locations [R=301,L]
+  RewriteRule ^roofing-stratford-green\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-sunset-village/?$ /locations [R=301,L]
+  RewriteRule ^roofing-sunset-village\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-touhy-avenue/?$ /locations [R=301,L]
+  RewriteRule ^roofing-touhy-avenue\.html$ /locations [R=301,L]
+  RewriteRule ^roofing-waters-edge/?$ /locations [R=301,L]
+  RewriteRule ^roofing-waters-edge\.html$ /locations [R=301,L]
+  RewriteRule ^blog/how-to-clean-moss-off-your-roof-safely/?$ /blog [R=301,L]
+  RewriteRule ^blog/how-to-clean-moss-off-your-roof-safely\.html$ /blog [R=301,L]
+
+  # /services/roof-repair -> services/roof-repair.html (internal, no redirect)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.+?)/?$ $1.html [L]
+
+  # Canonical: a direct .html hit 301s to the clean URL.
+  RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
+  RewriteRule ^ / [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+(.+?)/index\.html[\s?] [NC]
+  RewriteRule ^ /%1/ [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+  RewriteRule ^ /%1 [R=301,L]
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml application/xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 6 months"
+  ExpiresByType image/png "access plus 6 months"
+  ExpiresByType image/jpeg "access plus 6 months"
+  ExpiresByType image/webp "access plus 6 months"
+</IfModule>

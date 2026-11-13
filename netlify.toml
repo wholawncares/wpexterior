@@ -1,0 +1,442 @@
+[build.processing.html]
+pretty_urls = true
+
+[[headers]]
+  for = "/assets/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/global.css"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/assets/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "/roof-installation.html"
+  to = "/roof-replacement"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-installation"
+  to = "/roof-replacement"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hail-damage-roof-repair.html"
+  to = "/storm-damage-roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hail-damage-roof-repair"
+  to = "/storm-damage-roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wind-damage-roof-repair.html"
+  to = "/storm-damage-roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wind-damage-roof-repair"
+  to = "/storm-damage-roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/flat-roof-installation.html"
+  to = "/flat-roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/flat-roof-installation"
+  to = "/flat-roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/skylight-repair.html"
+  to = "/skylight-installation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/skylight-repair"
+  to = "/skylight-installation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gutter-repair.html"
+  to = "/gutter-installation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gutter-repair"
+  to = "/gutter-installation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/downspout-installation.html"
+  to = "/gutter-installation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/downspout-installation"
+  to = "/gutter-installation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soffit-and-fascia-repair.html"
+  to = "/gutter-installation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soffit-and-fascia-repair"
+  to = "/gutter-installation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/commercial-roofing.html"
+  to = "/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/commercial-roofing"
+  to = "/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/slate-roofing.html"
+  to = "/roof-replacement"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/slate-roofing"
+  to = "/roof-replacement"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tile-roofing.html"
+  to = "/roof-replacement"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tile-roofing"
+  to = "/roof-replacement"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-coating.html"
+  to = "/roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-coating"
+  to = "/roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-snow-removal.html"
+  to = "/emergency-roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-snow-removal"
+  to = "/emergency-roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gutter-cleaning.html"
+  to = "/gutter-installation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gutter-cleaning"
+  to = "/gutter-installation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/residential-roofing.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/residential-roofing"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-maintenance.html"
+  to = "/roof-inspection"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-maintenance"
+  to = "/roof-inspection"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/chimney-flashing-repair.html"
+  to = "/roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/chimney-flashing-repair"
+  to = "/roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/leak-detection-and-repair.html"
+  to = "/roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/leak-detection-and-repair"
+  to = "/roof-repair"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/shingle-roofing.html"
+  to = "/roof-replacement"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/shingle-roofing"
+  to = "/roof-replacement"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-algonquin-road.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-algonquin-road"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-beacon-pointe.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-beacon-pointe"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-central-road.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-central-road"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-des-plaines-manor.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-des-plaines-manor"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-forest-view.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-forest-view"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-golf-road-corridor.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-golf-road-corridor"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-lee-street.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-lee-street"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-lexington-commons.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-lexington-commons"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-miner-street.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-miner-street"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-mount-prospect-road.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-mount-prospect-road"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-river-road.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-river-road"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-stratford-green.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-stratford-green"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-sunset-village.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-sunset-village"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-touhy-avenue.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-touhy-avenue"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-waters-edge.html"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-waters-edge"
+  to = "/locations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/how-to-clean-moss-off-your-roof-safely.html"
+  to = "/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/how-to-clean-moss-off-your-roof-safely"
+  to = "/blog"
+  status = 301
+  force = true
